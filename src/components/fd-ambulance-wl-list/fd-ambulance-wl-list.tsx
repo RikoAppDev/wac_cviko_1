@@ -28,6 +28,12 @@ export class FdAmbulanceWlList {
         estimatedStart: new Date(Date.now() + 5 * 60),
         estimatedDurationMinutes: 15,
         condition: 'Bolesti hrdla'
+      }, {
+        name: 'Mgr. Jozefína Kováčová',
+        patientId: '10055',
+        estimatedStart: new Date(Date.now() + 90 * 60),
+        estimatedDurationMinutes: 30,
+        condition: 'Kontrola'
       }]
     );
   }
